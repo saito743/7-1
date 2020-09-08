@@ -122,15 +122,44 @@ header{
 }
 /* feature */
 #feature{
-	background-color: #eceff1;
+}
+.ft-box{
+	margin: 0 auto;
+	width: 980px;
 }
 .ft-box-item{
 	width: 320px;
-	text-align: center;
 	float: left;
 	display: inline-block;
+	margin-bottom: 90px;
 }
-
+.ft-box-item:nth-child(2){
+	margin: 0 10px;
+}
+.box-image{
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+}
+.bg-1{
+	background-image: url(img/icon1.png);
+}
+.bg-2{
+	background-image: url(img/icon2.png);
+}
+.bg-3{
+	background-image: url(img/icon3.png);
+}
+.ft-box-title{
+	font-size: 20px;
+	text-align: center;
+	margin: 10px 0;
+}
+.ft-box-body{
+	font-size: 16px;
+}
 
 
 
